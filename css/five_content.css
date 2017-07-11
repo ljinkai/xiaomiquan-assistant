@@ -1,0 +1,49 @@
+.five_search_conatiner {
+    background-color: white;
+    min-height: 295px;
+    position: fixed;
+    left: 50%;
+    top: 60px;
+    width: 640px;
+    margin-left: -320px;
+    z-index: 2147483648;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 2px 20px 5px;
+    overflow: hidden;
+}
+.five_search_close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+.xms_open {
+    position: fixed;
+    right: 81px;
+    top: 61px;
+    color: white;
+    font-size: 14px;
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    background-color: #ff8830;
+}
+.xms_link { padding: 16px;  }
+.xms_link_desc {color: dimgray;font-size: 12px;margin-bottom: 20px;margin-top:20px;width: 100%;text-align: center}
+.xms_link_target {font-size: 12px;margin-left: 8px;color: #333333;cursor: pointer;float: right;margin-right: 10px;}
+.xms_link_target:hover {color: black;}
+.xms_header {height: 50px;line-height: 50px;border-bottom: 1px solid #D2D2D2;padding: 0px 16px;}
+.xms_header_title {}
+.xms_header_desc {color: dimgray;font-size: 12px;}
+.xms_close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
